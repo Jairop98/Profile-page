@@ -1,0 +1,111 @@
+.background {
+    width: 1250px;
+    height: 1000px;
+    background-color: pink;
+    overflow: hidden;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+}
+.nav, .nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1246px;
+    height: 75px;
+    margin-bottom: 20px;
+}
+.nav {
+    border: 2px solid black;
+    background-color: blanchedalmond;
+}
+.nav-title {
+    margin: 10px 0px 10px 100px;
+}
+.usicon {
+    width: 100px;
+    height: 100px;
+    margin: 50px 0px 0px 30px;
+}
+.mapicon {
+    width: 10px;
+    height: 15px;
+    margin: 5px 0px 0px 20px;
+}
+.jairogicon {
+    width: 13px;
+    height: 15px;
+    margin: 5px 0px 0px 15px;
+}
+.toddimage, .phillimage {
+    width: 40px;
+    height: 40px;
+    margin: 20px 20px 10px 20px;
+}
+.toddaicon, .phillaicon {
+    margin: 0px 0px 0px 80px;
+}
+.toddcicon, .toddaicon, .phillcicon, .phillaicon {
+    padding: 2px;
+    width: 18px;
+    height: 18px;
+}
+.jairo, .connection, .education, .your-connection {
+    display: inline-block;
+}
+.jairo {
+    border: 2px solid black;
+    background-color: skyblue;
+    width: 500px;
+    height: 350px;
+    margin: 20px 50px 20px 100px;
+    padding: 10px;
+}
+.connection {
+    border: 2px solid black;
+    background-color: skyblue;
+    width: 400px;
+    height: 250px;
+    float: right;
+    margin: 20px 150px 20px 10px;
+}
+.education {
+    border: 2px solid black;
+    background-color: skyblue;
+    width: 500px;
+    height: 200px;
+    float: left;
+    margin: 20px 50px 20px 100px;
+    padding: 10px;
+}
+.your-connection {
+    border: 2px solid black;
+    background-color: skyblue;
+    width: 400px;
+    height: 500px;
+    margin: 20px 150px 500px 10px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+.adrienimage, .anneimage, .alayneimage, .arryimage {
+    width: 40px;
+    height: 40px;
+    margin: 20px 20px 10px 20px;
+}
+.numbers {
+    background-color: #eee;
+    color: #333;
+    font-size: 20px;
+    border-radius: 12px;
+    height: 24px;
+    padding: 0 10px;
+    margin: 10px;
+}
+.user {
+    display: flex;
+    align-items: center;
+}
+.view {
+    padding: 10px;
+}
